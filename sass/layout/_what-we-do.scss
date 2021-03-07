@@ -1,0 +1,45 @@
+.we-do-sec {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .section {
+    background-color: #fff;
+  }
+
+  .we-do-sec {
+    display: flex;
+    padding-bottom: 94px;
+  }
+
+  .we-do-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .we-do-item {
+    position: relative;
+  }
+
+  .we-do-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    height: 70px;
+
+    .we-do-text {
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #fff;
+    }
+  }
+}
